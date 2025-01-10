@@ -1,0 +1,114 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="Blank_A4" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="acd9c84d-c770-4aa4-ad3d-75bc72ee27f1">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (2)"/>
+	<query language="SQL"><![CDATA[SELECT * FROM student]]></query>
+	<field name="id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="id"/>
+		<property name="com.jaspersoft.studio.field.label" value="id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="student"/>
+	</field>
+	<field name="name" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="name"/>
+		<property name="com.jaspersoft.studio.field.label" value="name"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="student"/>
+	</field>
+	<field name="age" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="age"/>
+		<property name="com.jaspersoft.studio.field.label" value="age"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="student"/>
+	</field>
+	<field name="address" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="address"/>
+		<property name="com.jaspersoft.studio.field.label" value="address"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="student"/>
+	</field>
+	<field name="mobile" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="mobile"/>
+		<property name="com.jaspersoft.studio.field.label" value="mobile"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="student"/>
+	</field>
+	<field name="email" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="email"/>
+		<property name="com.jaspersoft.studio.field.label" value="email"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="student"/>
+	</field>
+	<field name="duration" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="duration"/>
+		<property name="com.jaspersoft.studio.field.label" value="duration"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="student"/>
+	</field>
+	<field name="amount" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="amount"/>
+		<property name="com.jaspersoft.studio.field.label" value="amount"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="student"/>
+	</field>
+	<background splitType="Stretch"/>
+	<title height="79" splitType="Stretch">
+		<element kind="staticText" uuid="2b146a3b-eafa-423d-8ba9-4b4f30d06d5d" x="143" y="0" width="277" height="45" fontSize="30.0">
+			<text><![CDATA[Students Information]]></text>
+		</element>
+		<element kind="staticText" uuid="60f2fe32-32bc-4d29-8da1-9fbf7a5bfc69" x="161" y="40" width="233" height="30" fontSize="20.0">
+			<text><![CDATA[JAPALEARN INSTITUTE]]></text>
+		</element>
+	</title>
+	<pageHeader height="35" splitType="Stretch"/>
+	<columnHeader height="48" splitType="Stretch">
+		<element kind="staticText" uuid="851a075a-6625-483d-b24b-004749339131" x="0" y="-1" width="20" height="42" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[ID]]></text>
+		</element>
+		<element kind="staticText" uuid="0f500ec6-3905-4ec3-8b17-6c8fe046ea6c" x="30" y="-1" width="50" height="41" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Name]]></text>
+		</element>
+		<element kind="staticText" uuid="1a96595c-3c4b-423a-be59-2143b17760d7" x="100" y="-1" width="30" height="41" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Age]]></text>
+		</element>
+		<element kind="staticText" uuid="d821ec3e-9cbb-430d-b70d-4f7e52c98f30" x="140" y="-1" width="80" height="43" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Address]]></text>
+		</element>
+		<element kind="staticText" uuid="bc464a96-2522-4cd8-93f1-a83d1864e30c" x="230" y="-1" width="60" height="41" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Mobile]]></text>
+		</element>
+		<element kind="staticText" uuid="95e7fa76-738d-492e-a9b1-7bf0045428ea" x="290" y="0" width="140" height="43" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Email]]></text>
+		</element>
+		<element kind="staticText" uuid="416cc074-e89b-42db-ac1f-f9c619b78be9" x="430" y="-1" width="62" height="45" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Duration]]></text>
+		</element>
+		<element kind="staticText" uuid="27f31b5a-14e0-490e-a0d2-683cbd97108b" x="492" y="0" width="58" height="45" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Amount]]></text>
+		</element>
+		<element kind="line" uuid="02210c0e-84e5-4420-9e98-7a64acacfe5c" x="3" y="44" width="547" height="1"/>
+	</columnHeader>
+	<detail>
+		<band height="42" splitType="Stretch">
+			<element kind="textField" uuid="75407517-4542-4f99-9dd4-1749f6c5c8b4" x="3" y="2" width="17" height="30" fontSize="13.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{id}]]></expression>
+			</element>
+			<element kind="textField" uuid="bf713f2b-8567-4717-aec6-b25198528324" x="290" y="0" width="140" height="30" fontSize="13.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{email}]]></expression>
+			</element>
+			<element kind="textField" uuid="f96263a7-2c85-41c5-b4ed-8f8698b73469" x="430" y="0" width="62" height="30" fontSize="13.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{duration}]]></expression>
+			</element>
+			<element kind="textField" uuid="af0bf1e9-51d6-43a5-bce4-496b092e8eb7" x="492" y="2" width="58" height="30" fontSize="13.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{amount}]]></expression>
+			</element>
+			<element kind="textField" uuid="428b516b-553f-4db4-9535-f47486704a9b" x="230" y="0" width="60" height="30" fontSize="13.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{mobile}]]></expression>
+			</element>
+			<element kind="textField" uuid="18eed752-35b1-42f8-a6f5-bc1c447408ef" x="140" y="2" width="80" height="30" fontSize="13.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{address}]]></expression>
+			</element>
+			<element kind="textField" uuid="f9dafc71-bafd-476c-b9fc-423f66a86896" x="30" y="2" width="50" height="30" fontSize="13.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{name}]]></expression>
+			</element>
+			<element kind="textField" uuid="4fdf467e-54a2-401a-9839-7d23afd7ed76" x="100" y="2" width="30" height="30" fontSize="13.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{age}]]></expression>
+			</element>
+		</band>
+	</detail>
+	<columnFooter height="45" splitType="Stretch"/>
+	<pageFooter height="54" splitType="Stretch"/>
+	<summary height="42" splitType="Stretch"/>
+</jasperReport>
